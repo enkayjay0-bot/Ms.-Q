@@ -1,0 +1,85 @@
+PASS: homepage loads at 360px
+PASS: no horizontal overflow at 360px
+PASS: clean runtime and local-only assets at 360px
+PASS: homepage loads at 390px
+PASS: no horizontal overflow at 390px
+PASS: clean runtime and local-only assets at 390px
+PASS: homepage loads at 768px
+PASS: no horizontal overflow at 768px
+PASS: clean runtime and local-only assets at 768px
+PASS: homepage loads at 1024px
+PASS: no horizontal overflow at 1024px
+PASS: clean runtime and local-only assets at 1024px
+PASS: homepage loads at 1440px
+PASS: no horizontal overflow at 1440px
+PASS: clean runtime and local-only assets at 1440px
+PASS: hero carousel renders four slides
+PASS: four slide indicators expose one current slide
+PASS: exactly one carousel slide is exposed to assistive technology
+PASS: next control advances the hero carousel
+PASS: carousel slide changes preserve the frame dimensions
+PASS: previous control returns to the first slide
+PASS: slide indicator selects and identifies its slide
+PASS: carousel keyboard navigation works
+PASS: all four eager-loading carousel images decode
+PASS: reduced motion disables carousel transitions
+PASS: reduced-motion slide change is immediate and visible
+PASS: four featured sample dishes render
+PASS: featured dishes retain the desktop grid without forced horizontal scrolling
+PASS: ten full-menu sample dishes render
+PASS: six gallery images render
+PASS: demo configuration blocks authorized ordering by default
+PASS: no live WhatsApp links exist in demo mode
+PASS: all menu and gallery WebP images load and decode
+PASS: Local Dishes filter returns two items
+PASS: Drinks filter returns one item
+PASS: empty search state appears
+PASS: reset restores all menu items
+PASS: search finds the matching pasta dish
+PASS: clear search restores all items
+PASS: cart count reflects three items
+PASS: cart groups identical products into two lines
+PASS: cart total calculates GH₵258.00 correctly
+PASS: increasing quantity updates subtotal and total
+PASS: decreasing quantity restores the correct total
+PASS: removing a product updates lines and total
+PASS: cart item IDs and quantities persist locally after reload
+PASS: clear cart restores the empty state
+PASS: checkout fixture total is GH₵124.00
+PASS: checkout opens from the cart
+PASS: checkout summary contains both order lines
+PASS: checkout validates required name and phone
+PASS: delivery requires a location
+PASS: valid checkout generates the local preview
+PASS: order message contains customer and delivery details
+PASS: order message contains items, quantities, prices and total
+PASS: order message retains demo and no-payment safeguards
+PASS: generated preview has no active WhatsApp action
+PASS: checkout makes no POST or other transmitting request
+PASS: copy button copies the complete demo message
+PASS: edit details returns to the checkout form
+PASS: finishing the demo clears the cart and closes checkout
+PASS: gallery lightbox opens
+PASS: gallery right arrow advances
+PASS: gallery left arrow returns
+PASS: gallery previous wraps to the last image
+PASS: gallery next wraps to the first image
+PASS: gallery Escape closes and restores focus
+PASS: mobile featured dishes use an intentional horizontal scroll-snap rail
+PASS: mobile navigation opens accessibly
+PASS: mobile Escape closes navigation and restores focus
+PASS: mobile menu link closes and navigates
+PASS: mobile cart opens without horizontal overflow
+PASS: mobile swipe advances the hero carousel
+PASS: mobile swipe advances the gallery
+PASS: mobile lightbox has no horizontal overflow
+PASS: homepage passes automated axe WCAG A/AA scan
+PASS: cart drawer passes automated axe WCAG A/AA scan
+PASS: checkout dialog passes automated axe WCAG A/AA scan
+PASS: gallery lightbox passes automated axe WCAG A/AA scan
+PASS: hero content remains visible without JavaScript
+PASS: no-JavaScript hero keeps its fallback image and hides unavailable carousel controls
+PASS: no-JavaScript notice explains interactive limitations
+PASS: no-JavaScript state also has no live ordering link
+
+ALL BROWSER TESTS PASSED: 83

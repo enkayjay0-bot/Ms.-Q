@@ -1,0 +1,105 @@
+{
+  "lighthouseVersion": "12.8.2",
+  "testDate": "2026-11-01",
+  "runs": {
+    "mobile": {
+      "fetchTime": "2026-11-01T12:02:19.526Z",
+      "scores": {
+        "performance": 90,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 91
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "display": "1.4\u00a0s",
+          "numericValue": 1366.1734
+        },
+        "largest-contentful-paint": {
+          "display": "3.5\u00a0s",
+          "numericValue": 3541.1733999999997
+        },
+        "speed-index": {
+          "display": "1.4\u00a0s",
+          "numericValue": 1366.1734
+        },
+        "total-blocking-time": {
+          "display": "10\u00a0ms",
+          "numericValue": 5
+        },
+        "cumulative-layout-shift": {
+          "display": "0",
+          "numericValue": 0
+        },
+        "interactive": {
+          "display": "3.6\u00a0s",
+          "numericValue": 3563.6734
+        },
+        "total-byte-weight": {
+          "display": "Total size was 460\u00a0KiB",
+          "numericValue": 471470
+        }
+      },
+      "remainingOpportunities": [
+        "render-blocking-resources",
+        "uses-text-compression",
+        "uses-long-cache-ttl",
+        "uses-responsive-images",
+        "unused-css-rules",
+        "unminified-css"
+      ]
+    },
+    "desktop": {
+      "fetchTime": "2026-11-01T12:02:34.032Z",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 91
+      },
+      "metrics": {
+        "first-contentful-paint": {
+          "display": "0.3\u00a0s",
+          "numericValue": 317.00250000000005
+        },
+        "largest-contentful-paint": {
+          "display": "0.6\u00a0s",
+          "numericValue": 637.0025
+        },
+        "speed-index": {
+          "display": "0.4\u00a0s",
+          "numericValue": 397.0554501486854
+        },
+        "total-blocking-time": {
+          "display": "0\u00a0ms",
+          "numericValue": 0
+        },
+        "cumulative-layout-shift": {
+          "display": "0.013",
+          "numericValue": 0.01274172076919151
+        },
+        "interactive": {
+          "display": "0.6\u00a0s",
+          "numericValue": 641.0025
+        },
+        "total-byte-weight": {
+          "display": "Total size was 609\u00a0KiB",
+          "numericValue": 624051
+        }
+      },
+      "remainingOpportunities": [
+        "render-blocking-resources",
+        "uses-text-compression",
+        "uses-long-cache-ttl",
+        "uses-responsive-images",
+        "unused-css-rules",
+        "unminified-css"
+      ]
+    }
+  },
+  "notes": [
+    "Local Python static server; no production CDN, compression or long-lived cache headers.",
+    "SEO score reflects the deliberately hidden WhatsApp anchor having no href while ordering is disabled.",
+    "Lighthouse is a lab audit, not real-user field data. Scores can vary between runs."
+  ]
+}

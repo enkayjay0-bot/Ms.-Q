@@ -1,0 +1,1731 @@
+{
+  "testStarted": "2026-11-01T12:09:01.351Z",
+  "environment": {
+    "node": "v20.20.2",
+    "platform": "Linux 6.1.158+",
+    "playwright": "1.64.1",
+    "axe": "4.11.1",
+    "browser": "Chromium 156.0.8078.4"
+  },
+  "assertions": [
+    {
+      "label": "360px: homepage returns HTTP 200",
+      "passed": true
+    },
+    {
+      "label": "360px: no horizontal page overflow",
+      "passed": true,
+      "details": {
+        "overflow": false,
+        "heroFits": true,
+        "headingFits": true,
+        "footerFits": true,
+        "sectionsSized": true,
+        "crops": true,
+        "primaryButtons": [
+          {
+            "width": 332,
+            "height": 52
+          },
+          {
+            "width": 332,
+            "height": 52
+          }
+        ],
+        "headerButtons": [
+          {
+            "width": 40,
+            "height": 40
+          },
+          {
+            "width": 40,
+            "height": 40
+          }
+        ],
+        "desktopNav": false,
+        "mobileToggle": true
+      }
+    },
+    {
+      "label": "360px: hero, headline, sections and footer stay within the layout",
+      "passed": true
+    },
+    {
+      "label": "360px: editorial image crops use cover sizing",
+      "passed": true
+    },
+    {
+      "label": "360px: primary hero actions are at least 44px high",
+      "passed": true,
+      "details": [
+        {
+          "width": 332,
+          "height": 52
+        },
+        {
+          "width": 332,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "label": "360px: visible header controls are at least 40px square",
+      "passed": true,
+      "details": [
+        {
+          "width": 40,
+          "height": 40
+        },
+        {
+          "width": 40,
+          "height": 40
+        }
+      ]
+    },
+    {
+      "label": "360px: correct desktop/mobile navigation is exposed",
+      "passed": true
+    },
+    {
+      "label": "360px: cart drawer fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "360px: cart layout shows the correct sample total",
+      "passed": true
+    },
+    {
+      "label": "360px: frequent cart touch controls meet the 44px presentation target",
+      "passed": true,
+      "details": [
+        {
+          "label": "Increase Jollof & grilled chicken quantity",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Remove Jollof & grilled chicken from cart",
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "label": "360px: checkout dialog fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "360px: checkout order summary retains the correct total",
+      "passed": true
+    },
+    {
+      "label": "360px: gallery lightbox fits and its image decodes",
+      "passed": true
+    },
+    {
+      "label": "360px: no runtime errors, failed assets or external requests",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "nonGet": []
+      }
+    },
+    {
+      "label": "390px: homepage returns HTTP 200",
+      "passed": true
+    },
+    {
+      "label": "390px: no horizontal page overflow",
+      "passed": true,
+      "details": {
+        "overflow": false,
+        "heroFits": true,
+        "headingFits": true,
+        "footerFits": true,
+        "sectionsSized": true,
+        "crops": true,
+        "primaryButtons": [
+          {
+            "width": 171,
+            "height": 52
+          },
+          {
+            "width": 171,
+            "height": 52
+          }
+        ],
+        "headerButtons": [
+          {
+            "width": 42,
+            "height": 42
+          },
+          {
+            "width": 42,
+            "height": 42
+          }
+        ],
+        "desktopNav": false,
+        "mobileToggle": true
+      }
+    },
+    {
+      "label": "390px: hero, headline, sections and footer stay within the layout",
+      "passed": true
+    },
+    {
+      "label": "390px: editorial image crops use cover sizing",
+      "passed": true
+    },
+    {
+      "label": "390px: primary hero actions are at least 44px high",
+      "passed": true,
+      "details": [
+        {
+          "width": 171,
+          "height": 52
+        },
+        {
+          "width": 171,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "label": "390px: visible header controls are at least 40px square",
+      "passed": true,
+      "details": [
+        {
+          "width": 42,
+          "height": 42
+        },
+        {
+          "width": 42,
+          "height": 42
+        }
+      ]
+    },
+    {
+      "label": "390px: correct desktop/mobile navigation is exposed",
+      "passed": true
+    },
+    {
+      "label": "390px: cart drawer fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "390px: cart layout shows the correct sample total",
+      "passed": true
+    },
+    {
+      "label": "390px: frequent cart touch controls meet the 44px presentation target",
+      "passed": true,
+      "details": [
+        {
+          "label": "Increase Jollof & grilled chicken quantity",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Remove Jollof & grilled chicken from cart",
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "label": "390px: checkout dialog fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "390px: checkout order summary retains the correct total",
+      "passed": true
+    },
+    {
+      "label": "390px: gallery lightbox fits and its image decodes",
+      "passed": true
+    },
+    {
+      "label": "390px: no runtime errors, failed assets or external requests",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "nonGet": []
+      }
+    },
+    {
+      "label": "768px: homepage returns HTTP 200",
+      "passed": true
+    },
+    {
+      "label": "768px: no horizontal page overflow",
+      "passed": true,
+      "details": {
+        "overflow": false,
+        "heroFits": true,
+        "headingFits": true,
+        "footerFits": true,
+        "sectionsSized": true,
+        "crops": true,
+        "primaryButtons": [
+          {
+            "width": 159.171875,
+            "height": 52
+          },
+          {
+            "width": 143.625,
+            "height": 52
+          }
+        ],
+        "headerButtons": [
+          {
+            "width": 44,
+            "height": 44
+          },
+          {
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "desktopNav": false,
+        "mobileToggle": true
+      }
+    },
+    {
+      "label": "768px: hero, headline, sections and footer stay within the layout",
+      "passed": true
+    },
+    {
+      "label": "768px: editorial image crops use cover sizing",
+      "passed": true
+    },
+    {
+      "label": "768px: primary hero actions are at least 44px high",
+      "passed": true,
+      "details": [
+        {
+          "width": 159.171875,
+          "height": 52
+        },
+        {
+          "width": 143.625,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "label": "768px: visible header controls are at least 40px square",
+      "passed": true,
+      "details": [
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "label": "768px: correct desktop/mobile navigation is exposed",
+      "passed": true
+    },
+    {
+      "label": "768px: cart drawer fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "768px: cart layout shows the correct sample total",
+      "passed": true
+    },
+    {
+      "label": "768px: frequent cart touch controls meet the 44px presentation target",
+      "passed": true,
+      "details": [
+        {
+          "label": "Increase Jollof & grilled chicken quantity",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Remove Jollof & grilled chicken from cart",
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "label": "768px: checkout dialog fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "768px: checkout order summary retains the correct total",
+      "passed": true
+    },
+    {
+      "label": "768px: gallery lightbox fits and its image decodes",
+      "passed": true
+    },
+    {
+      "label": "768px: no runtime errors, failed assets or external requests",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "nonGet": []
+      }
+    },
+    {
+      "label": "1024px: homepage returns HTTP 200",
+      "passed": true
+    },
+    {
+      "label": "1024px: no horizontal page overflow",
+      "passed": true,
+      "details": {
+        "overflow": false,
+        "heroFits": true,
+        "headingFits": true,
+        "footerFits": true,
+        "sectionsSized": true,
+        "crops": true,
+        "primaryButtons": [
+          {
+            "width": 159.171875,
+            "height": 52
+          },
+          {
+            "width": 143.625,
+            "height": 52
+          }
+        ],
+        "headerButtons": [
+          {
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "desktopNav": true,
+        "mobileToggle": false
+      }
+    },
+    {
+      "label": "1024px: hero, headline, sections and footer stay within the layout",
+      "passed": true
+    },
+    {
+      "label": "1024px: editorial image crops use cover sizing",
+      "passed": true
+    },
+    {
+      "label": "1024px: primary hero actions are at least 44px high",
+      "passed": true,
+      "details": [
+        {
+          "width": 159.171875,
+          "height": 52
+        },
+        {
+          "width": 143.625,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "label": "1024px: visible header controls are at least 40px square",
+      "passed": true,
+      "details": [
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "label": "1024px: correct desktop/mobile navigation is exposed",
+      "passed": true
+    },
+    {
+      "label": "1024px: cart drawer fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "1024px: cart layout shows the correct sample total",
+      "passed": true
+    },
+    {
+      "label": "1024px: checkout dialog fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "1024px: checkout order summary retains the correct total",
+      "passed": true
+    },
+    {
+      "label": "1024px: gallery lightbox fits and its image decodes",
+      "passed": true
+    },
+    {
+      "label": "1024px: no runtime errors, failed assets or external requests",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "nonGet": []
+      }
+    },
+    {
+      "label": "1440px: homepage returns HTTP 200",
+      "passed": true
+    },
+    {
+      "label": "1440px: no horizontal page overflow",
+      "passed": true,
+      "details": {
+        "overflow": false,
+        "heroFits": true,
+        "headingFits": true,
+        "footerFits": true,
+        "sectionsSized": true,
+        "crops": true,
+        "primaryButtons": [
+          {
+            "width": 159.171875,
+            "height": 52
+          },
+          {
+            "width": 143.625,
+            "height": 52
+          }
+        ],
+        "headerButtons": [
+          {
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "desktopNav": true,
+        "mobileToggle": false
+      }
+    },
+    {
+      "label": "1440px: hero, headline, sections and footer stay within the layout",
+      "passed": true
+    },
+    {
+      "label": "1440px: editorial image crops use cover sizing",
+      "passed": true
+    },
+    {
+      "label": "1440px: primary hero actions are at least 44px high",
+      "passed": true,
+      "details": [
+        {
+          "width": 159.171875,
+          "height": 52
+        },
+        {
+          "width": 143.625,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "label": "1440px: visible header controls are at least 40px square",
+      "passed": true,
+      "details": [
+        {
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "label": "1440px: correct desktop/mobile navigation is exposed",
+      "passed": true
+    },
+    {
+      "label": "1440px: cart drawer fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "1440px: cart layout shows the correct sample total",
+      "passed": true
+    },
+    {
+      "label": "1440px: checkout dialog fits without internal horizontal overflow",
+      "passed": true
+    },
+    {
+      "label": "1440px: checkout order summary retains the correct total",
+      "passed": true
+    },
+    {
+      "label": "1440px: gallery lightbox fits and its image decodes",
+      "passed": true
+    },
+    {
+      "label": "1440px: no runtime errors, failed assets or external requests",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "nonGet": []
+      }
+    },
+    {
+      "label": "First Tab focuses the skip-to-content link",
+      "passed": true
+    },
+    {
+      "label": "Keyboard focus has a visible outline",
+      "passed": true,
+      "details": {
+        "style": "solid",
+        "width": 3
+      }
+    },
+    {
+      "label": "Desktop Home link is reachable by keyboard",
+      "passed": true
+    },
+    {
+      "label": "Desktop navigation reaches #menu",
+      "passed": true
+    },
+    {
+      "label": "Desktop navigation reaches #about",
+      "passed": true
+    },
+    {
+      "label": "Desktop navigation reaches #gallery",
+      "passed": true
+    },
+    {
+      "label": "Desktop navigation reaches #contact",
+      "passed": true
+    },
+    {
+      "label": "Desktop navigation reaches #home",
+      "passed": true
+    },
+    {
+      "label": "Brand link returns to the hero",
+      "passed": true
+    },
+    {
+      "label": "Explore Menu reaches the full menu",
+      "passed": true
+    },
+    {
+      "label": "Sticky navigation remains at the viewport top after scrolling",
+      "passed": true,
+      "details": {
+        "position": "sticky",
+        "top": 0,
+        "scrolled": true
+      }
+    },
+    {
+      "label": "Empty-cart Order Now guides the customer to the menu",
+      "passed": true
+    },
+    {
+      "label": "Hero Order Now follows the same empty-cart guidance",
+      "passed": true
+    },
+    {
+      "label": "Journey Order Now follows the same empty-cart guidance",
+      "passed": true
+    },
+    {
+      "label": "Order Now opens the cart when it contains an item",
+      "passed": true
+    },
+    {
+      "label": "Escape closes the cart and restores focus",
+      "passed": true
+    },
+    {
+      "label": "Every rendered internal anchor has a valid target",
+      "passed": true
+    },
+    {
+      "label": "Desktop navigation journey produces no runtime or network errors",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "nonGet": []
+      }
+    },
+    {
+      "label": "Carousel contains four slides and four indicators",
+      "passed": true
+    },
+    {
+      "label": "Carousel exposes exactly one active slide and indicator",
+      "passed": true
+    },
+    {
+      "label": "Carousel does not move automatically when autoplay is disabled",
+      "passed": true
+    },
+    {
+      "label": "Next advances to slide two with the correct caption",
+      "passed": true
+    },
+    {
+      "label": "Slide changes preserve carousel geometry",
+      "passed": true
+    },
+    {
+      "label": "Previous returns to slide one",
+      "passed": true
+    },
+    {
+      "label": "Previous wraps from the first slide to the fourth",
+      "passed": true
+    },
+    {
+      "label": "Direct indicator selects slide three",
+      "passed": true
+    },
+    {
+      "label": "Right arrow advances the focused carousel",
+      "passed": true
+    },
+    {
+      "label": "Left arrow returns to the previous slide",
+      "passed": true
+    },
+    {
+      "label": "Manual controls update the polite slide announcement",
+      "passed": true
+    },
+    {
+      "label": "All carousel images load, decode and have useful alternatives",
+      "passed": true,
+      "details": [
+        {
+          "alt": "Editorial sample meal with rice, grilled chicken, salad and a hibiscus drink",
+          "loaded": true,
+          "loading": "eager"
+        },
+        {
+          "alt": "Sample jollof rice and grilled chicken on an ivory plate",
+          "loaded": true,
+          "loading": "eager"
+        },
+        {
+          "alt": "Sample grilled tilapia and banku on a dark ceramic plate",
+          "loaded": true,
+          "loading": "eager"
+        },
+        {
+          "alt": "Sample ruby-red hibiscus drink with ice and citrus",
+          "loaded": true,
+          "loading": "eager"
+        }
+      ]
+    },
+    {
+      "label": "Reduced-motion preference disables slide transitions and smooth scrolling",
+      "passed": true,
+      "details": {
+        "transition": "0s",
+        "htmlScroll": "auto"
+      }
+    },
+    {
+      "label": "Reduced-motion slide change is immediately visible",
+      "passed": true
+    },
+    {
+      "label": "Four featured dishes, ten menu items and six gallery cards render",
+      "passed": true
+    },
+    {
+      "label": "Menu filter all returns the data-driven item count",
+      "passed": true
+    },
+    {
+      "label": "Menu filter main returns the data-driven item count",
+      "passed": true
+    },
+    {
+      "label": "Menu filter local returns the data-driven item count",
+      "passed": true
+    },
+    {
+      "label": "Menu filter snacks returns the data-driven item count",
+      "passed": true
+    },
+    {
+      "label": "Menu filter pastries returns the data-driven item count",
+      "passed": true
+    },
+    {
+      "label": "Menu filter drinks returns the data-driven item count",
+      "passed": true
+    },
+    {
+      "label": "Menu filter specials returns the data-driven item count",
+      "passed": true
+    },
+    {
+      "label": "Every menu card matches its sample name, exact price and demo label",
+      "passed": true
+    },
+    {
+      "label": "Case-insensitive search finds the matching dish",
+      "passed": true
+    },
+    {
+      "label": "Clear-search restores results and returns focus",
+      "passed": true
+    },
+    {
+      "label": "Unknown search shows the empty state and hides the grid",
+      "passed": true
+    },
+    {
+      "label": "Reset restores all dishes, category state and search focus",
+      "passed": true
+    },
+    {
+      "label": "Every menu and gallery image asset loads successfully",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Empty cart shows its empty state and hides checkout actions",
+      "passed": true
+    },
+    {
+      "label": "Add-to-cart groups duplicate products and updates the count",
+      "passed": true
+    },
+    {
+      "label": "Initial cart subtotals and total are correct",
+      "passed": true
+    },
+    {
+      "label": "Increasing quantity recalculates line and order totals",
+      "passed": true
+    },
+    {
+      "label": "Decreasing quantity recalculates the total",
+      "passed": true
+    },
+    {
+      "label": "Decrease is disabled at quantity one",
+      "passed": true
+    },
+    {
+      "label": "Removing a product leaves the correct remaining total",
+      "passed": true
+    },
+    {
+      "label": "Cart persists across reload with the correct item and quantity",
+      "passed": true
+    },
+    {
+      "label": "Persistence stores only cart item IDs and quantities",
+      "passed": true,
+      "details": {
+        "keys": [
+          "msq-demo-cart-v1"
+        ],
+        "cart": [
+          {
+            "itemId": "jollof-chicken",
+            "quantity": 1
+          }
+        ]
+      }
+    },
+    {
+      "label": "Cart enforces the maximum quantity of twenty",
+      "passed": true
+    },
+    {
+      "label": "Clearing the cart restores the empty state and zero total",
+      "passed": true
+    },
+    {
+      "label": "Menu and cart interactions produce no unexpected requests or errors",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "failed": [
+          "http://127.0.0.1:43877/assets/images/hero.webp net::ERR_ABORTED"
+        ],
+        "external": [],
+        "nonGet": [],
+        "unresolvedFailures": [],
+        "navigationCancelled": [
+          "http://127.0.0.1:43877/assets/images/hero.webp net::ERR_ABORTED"
+        ]
+      }
+    },
+    {
+      "label": "Demo configuration explicitly disables live ordering",
+      "passed": true
+    },
+    {
+      "label": "Research contact is display-only and no restaurant contact links exist",
+      "passed": true
+    },
+    {
+      "label": "Checkout form has no external action and all sample disclosures remain visible",
+      "passed": true
+    },
+    {
+      "label": "WhatsApp action remains hidden before checkout",
+      "passed": true
+    },
+    {
+      "label": "Checkout summary lists both products and the correct total",
+      "passed": true
+    },
+    {
+      "label": "Pickup is selected and delivery location is initially hidden and optional",
+      "passed": true
+    },
+    {
+      "label": "Required validation blocks an empty submission",
+      "passed": true
+    },
+    {
+      "label": "Validation focuses the first invalid field",
+      "passed": true
+    },
+    {
+      "label": "Invalid demo name and phone remain blocked",
+      "passed": true
+    },
+    {
+      "label": "Delivery selection reveals and requires the conditional location field",
+      "passed": true
+    },
+    {
+      "label": "Delivery submission requires a fictional location",
+      "passed": true
+    },
+    {
+      "label": "Valid delivery details generate the local order preview",
+      "passed": true
+    },
+    {
+      "label": "Generated message contains the correct customer, items and total",
+      "passed": true
+    },
+    {
+      "label": "Generated message clearly states sample, unsent and no-payment status",
+      "passed": true
+    },
+    {
+      "label": "WhatsApp remains hidden with no URL after message generation",
+      "passed": true
+    },
+    {
+      "label": "No fetch, XHR or beacon transmission occurs during checkout",
+      "passed": true,
+      "details": {
+        "transmissions": [],
+        "telemetry": {
+          "errors": [],
+          "failed": [],
+          "external": [],
+          "nonGet": []
+        }
+      }
+    },
+    {
+      "label": "Customer details are not persisted in browser storage",
+      "passed": true,
+      "details": {
+        "local": "[{\"itemId\":\"jollof-chicken\",\"quantity\":2},{\"itemId\":\"tilapia-banku\",\"quantity\":1}]",
+        "session": ""
+      }
+    },
+    {
+      "label": "Copy-message copies the exact local preview without sending it",
+      "passed": true
+    },
+    {
+      "label": "Edit details returns to the populated checkout form",
+      "passed": true
+    },
+    {
+      "label": "Returning to Pickup hides and clears delivery validation",
+      "passed": true
+    },
+    {
+      "label": "Pickup message omits the delivery-location line",
+      "passed": true
+    },
+    {
+      "label": "Finish clears the demo cart and closes checkout without contacting anyone",
+      "passed": true
+    },
+    {
+      "label": "No payment fields, processors or payment requests exist",
+      "passed": true
+    },
+    {
+      "label": "Mobile navigation opens with accurate ARIA state",
+      "passed": true
+    },
+    {
+      "label": "Mobile Escape closes navigation and restores toggle focus",
+      "passed": true
+    },
+    {
+      "label": "Mobile-menu Order Now closes navigation and provides empty-cart guidance",
+      "passed": true
+    },
+    {
+      "label": "Mobile navigation link closes the panel and reaches its section",
+      "passed": true
+    },
+    {
+      "label": "Gallery lightbox opens with a loaded image and correct counter",
+      "passed": true
+    },
+    {
+      "label": "Gallery Next advances to image two",
+      "passed": true
+    },
+    {
+      "label": "Gallery Previous returns to image one",
+      "passed": true
+    },
+    {
+      "label": "Gallery Previous wraps to the last image",
+      "passed": true
+    },
+    {
+      "label": "Gallery right-arrow keyboard control wraps to image one",
+      "passed": true
+    },
+    {
+      "label": "Gallery left-arrow keyboard control returns to image six",
+      "passed": true
+    },
+    {
+      "label": "Gallery Escape closes and restores focus to the originating thumbnail",
+      "passed": true
+    },
+    {
+      "label": "Mobile hero swipe advances the carousel",
+      "passed": true
+    },
+    {
+      "label": "Mobile gallery swipe advances the lightbox",
+      "passed": true
+    },
+    {
+      "label": "Gallery close button exits the lightbox",
+      "passed": true
+    },
+    {
+      "label": "Semantic landmarks, heading, image alternatives, labels and button names are present",
+      "passed": true,
+      "details": {
+        "main": 1,
+        "h1": 1,
+        "navs": 2,
+        "unlabeledImages": 0,
+        "unlabeledInputs": 0,
+        "unnamedButtons": 0
+      }
+    },
+    {
+      "label": "Axe: desktop homepage has no detected WCAG A/AA violations",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Axe: cart drawer has no detected WCAG A/AA violations",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Native modal dialog places keyboard focus inside the cart",
+      "passed": true
+    },
+    {
+      "label": "Axe: checkout dialog has no detected WCAG A/AA violations",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Axe: gallery lightbox has no detected WCAG A/AA violations",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Axe: mobile homepage has no detected WCAG A/AA violations",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Axe: open mobile navigation has no detected WCAG A/AA violations",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Initial local load transfers less than 1 MB before lazy content",
+      "passed": true,
+      "details": {
+        "domContentLoaded": 112.10000000009313,
+        "load": 132.60000000009313,
+        "resources": 22,
+        "transferBytes": 625877,
+        "decodedBodyBytes": 618977,
+        "cls": 0.014416545621141976,
+        "lcp": 160,
+        "fcp": 160,
+        "fonts": [
+          {
+            "family": "Fraunces",
+            "status": "loaded"
+          },
+          {
+            "family": "Manrope",
+            "status": "loaded"
+          }
+        ],
+        "scripts": [
+          "config.js",
+          "data.js",
+          "main.js",
+          "carousel.js",
+          "menu.js",
+          "cart.js",
+          "checkout.js",
+          "gallery.js"
+        ]
+      }
+    },
+    {
+      "label": "Initial layout shift remains below the 0.1 good-experience threshold",
+      "passed": true,
+      "details": {
+        "cls": 0.014416545621141976
+      }
+    },
+    {
+      "label": "Both final font families load successfully",
+      "passed": true,
+      "details": [
+        {
+          "family": "Fraunces",
+          "status": "loaded"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded"
+        }
+      ]
+    },
+    {
+      "label": "All eight modular runtime scripts load with no unused dependency framework",
+      "passed": true,
+      "details": [
+        "config.js",
+        "data.js",
+        "main.js",
+        "carousel.js",
+        "menu.js",
+        "cart.js",
+        "checkout.js",
+        "gallery.js"
+      ]
+    },
+    {
+      "label": "All rendered images load after a complete page journey",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Full-page loading and scrolling retain CLS below 0.1",
+      "passed": true,
+      "details": {
+        "cls": 0.014416545621141976
+      }
+    },
+    {
+      "label": "Performance journey has no JavaScript errors or failed requests",
+      "passed": true,
+      "details": {
+        "errors": [],
+        "failed": [],
+        "external": [],
+        "nonGet": []
+      }
+    },
+    {
+      "label": "Static HTML has unique IDs and no broken internal anchors",
+      "passed": true
+    },
+    {
+      "label": "Every statically referenced local script, style, font and image exists",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Runtime food imagery uses local WebP files with a single social JPEG",
+      "passed": true
+    },
+    {
+      "label": "No individual runtime image exceeds 200 KB",
+      "passed": true,
+      "details": []
+    },
+    {
+      "label": "Final CSS uses only Fraunces and Manrope as downloaded font families",
+      "passed": true
+    },
+    {
+      "label": "Font declarations use swap and no runtime CDN dependencies",
+      "passed": true
+    },
+    {
+      "label": "Runtime remains eight deferred vanilla-JavaScript modules",
+      "passed": true
+    },
+    {
+      "label": "Project contains no production package dependency or build requirement",
+      "passed": true
+    }
+  ],
+  "responsive": {
+    "360": {
+      "viewport": {
+        "width": 360,
+        "height": 800
+      },
+      "overflow": false,
+      "heroFits": true,
+      "headingFits": true,
+      "footerFits": true,
+      "sectionsSized": true,
+      "crops": true,
+      "primaryButtons": [
+        {
+          "width": 332,
+          "height": 52
+        },
+        {
+          "width": 332,
+          "height": 52
+        }
+      ],
+      "headerButtons": [
+        {
+          "width": 40,
+          "height": 40
+        },
+        {
+          "width": 40,
+          "height": 40
+        }
+      ],
+      "desktopNav": false,
+      "mobileToggle": true,
+      "cartTouchTargets": [
+        {
+          "label": "Increase Jollof & grilled chicken quantity",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Remove Jollof & grilled chicken from cart",
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    "390": {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "overflow": false,
+      "heroFits": true,
+      "headingFits": true,
+      "footerFits": true,
+      "sectionsSized": true,
+      "crops": true,
+      "primaryButtons": [
+        {
+          "width": 171,
+          "height": 52
+        },
+        {
+          "width": 171,
+          "height": 52
+        }
+      ],
+      "headerButtons": [
+        {
+          "width": 42,
+          "height": 42
+        },
+        {
+          "width": 42,
+          "height": 42
+        }
+      ],
+      "desktopNav": false,
+      "mobileToggle": true,
+      "cartTouchTargets": [
+        {
+          "label": "Increase Jollof & grilled chicken quantity",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Remove Jollof & grilled chicken from cart",
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    "768": {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "overflow": false,
+      "heroFits": true,
+      "headingFits": true,
+      "footerFits": true,
+      "sectionsSized": true,
+      "crops": true,
+      "primaryButtons": [
+        {
+          "width": 159.171875,
+          "height": 52
+        },
+        {
+          "width": 143.625,
+          "height": 52
+        }
+      ],
+      "headerButtons": [
+        {
+          "width": 44,
+          "height": 44
+        },
+        {
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "desktopNav": false,
+      "mobileToggle": true,
+      "cartTouchTargets": [
+        {
+          "label": "Increase Jollof & grilled chicken quantity",
+          "width": 44,
+          "height": 44
+        },
+        {
+          "label": "Remove Jollof & grilled chicken from cart",
+          "width": 44,
+          "height": 44
+        }
+      ]
+    },
+    "1024": {
+      "viewport": {
+        "width": 1024,
+        "height": 768
+      },
+      "overflow": false,
+      "heroFits": true,
+      "headingFits": true,
+      "footerFits": true,
+      "sectionsSized": true,
+      "crops": true,
+      "primaryButtons": [
+        {
+          "width": 159.171875,
+          "height": 52
+        },
+        {
+          "width": 143.625,
+          "height": 52
+        }
+      ],
+      "headerButtons": [
+        {
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "desktopNav": true,
+      "mobileToggle": false
+    },
+    "1440": {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "overflow": false,
+      "heroFits": true,
+      "headingFits": true,
+      "footerFits": true,
+      "sectionsSized": true,
+      "crops": true,
+      "primaryButtons": [
+        {
+          "width": 159.171875,
+          "height": 52
+        },
+        {
+          "width": 143.625,
+          "height": 52
+        }
+      ],
+      "headerButtons": [
+        {
+          "width": 44,
+          "height": 44
+        }
+      ],
+      "desktopNav": true,
+      "mobileToggle": false
+    }
+  },
+  "accessibility": [
+    {
+      "label": "Axe: desktop homepage has no detected WCAG A/AA violations",
+      "violations": [],
+      "passes": 28,
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "label": "Axe: cart drawer has no detected WCAG A/AA violations",
+      "violations": [],
+      "passes": 15,
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "label": "Axe: checkout dialog has no detected WCAG A/AA violations",
+      "violations": [],
+      "passes": 17,
+      "incomplete": [
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "label": "Axe: gallery lightbox has no detected WCAG A/AA violations",
+      "violations": [],
+      "passes": 14,
+      "incomplete": [
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "label": "Axe: mobile homepage has no detected WCAG A/AA violations",
+      "violations": [],
+      "passes": 29,
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    },
+    {
+      "label": "Axe: open mobile navigation has no detected WCAG A/AA violations",
+      "violations": [],
+      "passes": 29,
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast",
+        "link-in-text-block"
+      ]
+    }
+  ],
+  "performance": {
+    "initial": {
+      "domContentLoaded": 112.10000000009313,
+      "load": 132.60000000009313,
+      "resources": 22,
+      "transferBytes": 625877,
+      "decodedBodyBytes": 618977,
+      "cls": 0.014416545621141976,
+      "lcp": 160,
+      "fcp": 160,
+      "fonts": [
+        {
+          "family": "Fraunces",
+          "status": "loaded"
+        },
+        {
+          "family": "Manrope",
+          "status": "loaded"
+        }
+      ],
+      "scripts": [
+        "config.js",
+        "data.js",
+        "main.js",
+        "carousel.js",
+        "menu.js",
+        "cart.js",
+        "checkout.js",
+        "gallery.js"
+      ]
+    },
+    "afterScroll": {
+      "cls": 0.014416545621141976,
+      "images": [
+        {
+          "src": "assets/images/hero.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/hero-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/jollof-chicken.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/jollof-chicken-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/tilapia.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/tilapia-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/hibiscus.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/hibiscus-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/jollof-chicken-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/jollof-chicken-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/tilapia-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/tilapia-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/croissant-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/croissant-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/hibiscus-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/hibiscus-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/jollof-chicken-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/jollof-chicken-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/pasta-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/pasta-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/tilapia-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/tilapia-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/red-red-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/red-red-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/skewers-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/skewers-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/spring-rolls-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/spring-rolls-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/croissant-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/croissant-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/chocolate-cake-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/chocolate-cake-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/hibiscus-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/hibiscus-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/hero-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/hero-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/tilapia.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/tilapia-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/hero-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/hero-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/tilapia-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/tilapia-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/jollof-chicken-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/jollof-chicken-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/croissant-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/croissant-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/hibiscus-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/hibiscus-card.webp",
+          "loaded": true
+        },
+        {
+          "src": "assets/images/chocolate-cake-card.webp",
+          "currentSrc": "http://127.0.0.1:43877/assets/images/chocolate-cake-card.webp",
+          "loaded": true
+        }
+      ]
+    }
+  },
+  "codeAudit": {
+    "images": [
+      {
+        "file": "assets/images/chocolate-cake-card.webp",
+        "bytes": 31446
+      },
+      {
+        "file": "assets/images/chocolate-cake.webp",
+        "bytes": 82626
+      },
+      {
+        "file": "assets/images/croissant-card.webp",
+        "bytes": 33190
+      },
+      {
+        "file": "assets/images/croissant.webp",
+        "bytes": 80258
+      },
+      {
+        "file": "assets/images/hero-card.webp",
+        "bytes": 45396
+      },
+      {
+        "file": "assets/images/hero.webp",
+        "bytes": 101304
+      },
+      {
+        "file": "assets/images/hibiscus-card.webp",
+        "bytes": 29440
+      },
+      {
+        "file": "assets/images/hibiscus.webp",
+        "bytes": 77544
+      },
+      {
+        "file": "assets/images/jollof-chicken-card.webp",
+        "bytes": 43098
+      },
+      {
+        "file": "assets/images/jollof-chicken.webp",
+        "bytes": 104956
+      },
+      {
+        "file": "assets/images/pasta-card.webp",
+        "bytes": 35766
+      },
+      {
+        "file": "assets/images/pasta.webp",
+        "bytes": 87644
+      },
+      {
+        "file": "assets/images/red-red-card.webp",
+        "bytes": 48820
+      },
+      {
+        "file": "assets/images/red-red.webp",
+        "bytes": 121456
+      },
+      {
+        "file": "assets/images/skewers-card.webp",
+        "bytes": 52506
+      },
+      {
+        "file": "assets/images/skewers.webp",
+        "bytes": 126344
+      },
+      {
+        "file": "assets/images/social-preview.jpg",
+        "bytes": 101878
+      },
+      {
+        "file": "assets/images/spring-rolls-card.webp",
+        "bytes": 39002
+      },
+      {
+        "file": "assets/images/spring-rolls.webp",
+        "bytes": 91928
+      },
+      {
+        "file": "assets/images/tilapia-card.webp",
+        "bytes": 48610
+      },
+      {
+        "file": "assets/images/tilapia.webp",
+        "bytes": 133696
+      }
+    ]
+  },
+  "sectionErrors": [],
+  "baseURL": "http://127.0.0.1:43877/",
+  "testFinished": "2026-11-01T12:09:34.652Z",
+  "summary": {
+    "passed": 186,
+    "failed": 0,
+    "total": 186
+  }
+}

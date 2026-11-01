@@ -1,0 +1,208 @@
+Testing http://127.0.0.1:43877/ with Chromium 156.0.8078.4
+
+## Responsive layouts and UI states
+PASS: 360px: homepage returns HTTP 200
+PASS: 360px: no horizontal page overflow
+PASS: 360px: hero, headline, sections and footer stay within the layout
+PASS: 360px: editorial image crops use cover sizing
+PASS: 360px: primary hero actions are at least 44px high
+PASS: 360px: visible header controls are at least 40px square
+PASS: 360px: correct desktop/mobile navigation is exposed
+PASS: 360px: cart drawer fits without internal horizontal overflow
+PASS: 360px: cart layout shows the correct sample total
+PASS: 360px: frequent cart touch controls meet the 44px presentation target
+PASS: 360px: checkout dialog fits without internal horizontal overflow
+PASS: 360px: checkout order summary retains the correct total
+PASS: 360px: gallery lightbox fits and its image decodes
+PASS: 360px: no runtime errors, failed assets or external requests
+PASS: 390px: homepage returns HTTP 200
+PASS: 390px: no horizontal page overflow
+PASS: 390px: hero, headline, sections and footer stay within the layout
+PASS: 390px: editorial image crops use cover sizing
+PASS: 390px: primary hero actions are at least 44px high
+PASS: 390px: visible header controls are at least 40px square
+PASS: 390px: correct desktop/mobile navigation is exposed
+PASS: 390px: cart drawer fits without internal horizontal overflow
+PASS: 390px: cart layout shows the correct sample total
+PASS: 390px: frequent cart touch controls meet the 44px presentation target
+PASS: 390px: checkout dialog fits without internal horizontal overflow
+PASS: 390px: checkout order summary retains the correct total
+PASS: 390px: gallery lightbox fits and its image decodes
+PASS: 390px: no runtime errors, failed assets or external requests
+PASS: 768px: homepage returns HTTP 200
+PASS: 768px: no horizontal page overflow
+PASS: 768px: hero, headline, sections and footer stay within the layout
+PASS: 768px: editorial image crops use cover sizing
+PASS: 768px: primary hero actions are at least 44px high
+PASS: 768px: visible header controls are at least 40px square
+PASS: 768px: correct desktop/mobile navigation is exposed
+PASS: 768px: cart drawer fits without internal horizontal overflow
+PASS: 768px: cart layout shows the correct sample total
+PASS: 768px: frequent cart touch controls meet the 44px presentation target
+PASS: 768px: checkout dialog fits without internal horizontal overflow
+PASS: 768px: checkout order summary retains the correct total
+PASS: 768px: gallery lightbox fits and its image decodes
+PASS: 768px: no runtime errors, failed assets or external requests
+PASS: 1024px: homepage returns HTTP 200
+PASS: 1024px: no horizontal page overflow
+PASS: 1024px: hero, headline, sections and footer stay within the layout
+PASS: 1024px: editorial image crops use cover sizing
+PASS: 1024px: primary hero actions are at least 44px high
+PASS: 1024px: visible header controls are at least 40px square
+PASS: 1024px: correct desktop/mobile navigation is exposed
+PASS: 1024px: cart drawer fits without internal horizontal overflow
+PASS: 1024px: cart layout shows the correct sample total
+PASS: 1024px: checkout dialog fits without internal horizontal overflow
+PASS: 1024px: checkout order summary retains the correct total
+PASS: 1024px: gallery lightbox fits and its image decodes
+PASS: 1024px: no runtime errors, failed assets or external requests
+PASS: 1440px: homepage returns HTTP 200
+PASS: 1440px: no horizontal page overflow
+PASS: 1440px: hero, headline, sections and footer stay within the layout
+PASS: 1440px: editorial image crops use cover sizing
+PASS: 1440px: primary hero actions are at least 44px high
+PASS: 1440px: visible header controls are at least 40px square
+PASS: 1440px: correct desktop/mobile navigation is exposed
+PASS: 1440px: cart drawer fits without internal horizontal overflow
+PASS: 1440px: cart layout shows the correct sample total
+PASS: 1440px: checkout dialog fits without internal horizontal overflow
+PASS: 1440px: checkout order summary retains the correct total
+PASS: 1440px: gallery lightbox fits and its image decodes
+PASS: 1440px: no runtime errors, failed assets or external requests
+
+## Desktop navigation and keyboard access
+PASS: First Tab focuses the skip-to-content link
+PASS: Keyboard focus has a visible outline
+PASS: Desktop Home link is reachable by keyboard
+PASS: Desktop navigation reaches #menu
+PASS: Desktop navigation reaches #about
+PASS: Desktop navigation reaches #gallery
+PASS: Desktop navigation reaches #contact
+PASS: Desktop navigation reaches #home
+PASS: Brand link returns to the hero
+PASS: Explore Menu reaches the full menu
+PASS: Sticky navigation remains at the viewport top after scrolling
+PASS: Empty-cart Order Now guides the customer to the menu
+PASS: Hero Order Now follows the same empty-cart guidance
+PASS: Journey Order Now follows the same empty-cart guidance
+PASS: Order Now opens the cart when it contains an item
+PASS: Escape closes the cart and restores focus
+PASS: Every rendered internal anchor has a valid target
+PASS: Desktop navigation journey produces no runtime or network errors
+
+## Hero carousel
+PASS: Carousel contains four slides and four indicators
+PASS: Carousel exposes exactly one active slide and indicator
+PASS: Carousel does not move automatically when autoplay is disabled
+PASS: Next advances to slide two with the correct caption
+PASS: Slide changes preserve carousel geometry
+PASS: Previous returns to slide one
+PASS: Previous wraps from the first slide to the fourth
+PASS: Direct indicator selects slide three
+PASS: Right arrow advances the focused carousel
+PASS: Left arrow returns to the previous slide
+PASS: Manual controls update the polite slide announcement
+PASS: All carousel images load, decode and have useful alternatives
+PASS: Reduced-motion preference disables slide transitions and smooth scrolling
+PASS: Reduced-motion slide change is immediately visible
+
+## Menu, prices and cart
+PASS: Four featured dishes, ten menu items and six gallery cards render
+PASS: Menu filter all returns the data-driven item count
+PASS: Menu filter main returns the data-driven item count
+PASS: Menu filter local returns the data-driven item count
+PASS: Menu filter snacks returns the data-driven item count
+PASS: Menu filter pastries returns the data-driven item count
+PASS: Menu filter drinks returns the data-driven item count
+PASS: Menu filter specials returns the data-driven item count
+PASS: Every menu card matches its sample name, exact price and demo label
+PASS: Case-insensitive search finds the matching dish
+PASS: Clear-search restores results and returns focus
+PASS: Unknown search shows the empty state and hides the grid
+PASS: Reset restores all dishes, category state and search focus
+PASS: Every menu and gallery image asset loads successfully
+PASS: Empty cart shows its empty state and hides checkout actions
+PASS: Add-to-cart groups duplicate products and updates the count
+PASS: Initial cart subtotals and total are correct
+PASS: Increasing quantity recalculates line and order totals
+PASS: Decreasing quantity recalculates the total
+PASS: Decrease is disabled at quantity one
+PASS: Removing a product leaves the correct remaining total
+PASS: Cart persists across reload with the correct item and quantity
+PASS: Persistence stores only cart item IDs and quantities
+PASS: Cart enforces the maximum quantity of twenty
+PASS: Clearing the cart restores the empty state and zero total
+PASS: Menu and cart interactions produce no unexpected requests or errors
+
+## Checkout and demo safety
+PASS: Demo configuration explicitly disables live ordering
+PASS: Research contact is display-only and no restaurant contact links exist
+PASS: Checkout form has no external action and all sample disclosures remain visible
+PASS: WhatsApp action remains hidden before checkout
+PASS: Checkout summary lists both products and the correct total
+PASS: Pickup is selected and delivery location is initially hidden and optional
+PASS: Required validation blocks an empty submission
+PASS: Validation focuses the first invalid field
+PASS: Invalid demo name and phone remain blocked
+PASS: Delivery selection reveals and requires the conditional location field
+PASS: Delivery submission requires a fictional location
+PASS: Valid delivery details generate the local order preview
+PASS: Generated message contains the correct customer, items and total
+PASS: Generated message clearly states sample, unsent and no-payment status
+PASS: WhatsApp remains hidden with no URL after message generation
+PASS: No fetch, XHR or beacon transmission occurs during checkout
+PASS: Customer details are not persisted in browser storage
+PASS: Copy-message copies the exact local preview without sending it
+PASS: Edit details returns to the populated checkout form
+PASS: Returning to Pickup hides and clears delivery validation
+PASS: Pickup message omits the delivery-location line
+PASS: Finish clears the demo cart and closes checkout without contacting anyone
+PASS: No payment fields, processors or payment requests exist
+
+## Gallery and mobile gestures
+PASS: Mobile navigation opens with accurate ARIA state
+PASS: Mobile Escape closes navigation and restores toggle focus
+PASS: Mobile-menu Order Now closes navigation and provides empty-cart guidance
+PASS: Mobile navigation link closes the panel and reaches its section
+PASS: Gallery lightbox opens with a loaded image and correct counter
+PASS: Gallery Next advances to image two
+PASS: Gallery Previous returns to image one
+PASS: Gallery Previous wraps to the last image
+PASS: Gallery right-arrow keyboard control wraps to image one
+PASS: Gallery left-arrow keyboard control returns to image six
+PASS: Gallery Escape closes and restores focus to the originating thumbnail
+PASS: Mobile hero swipe advances the carousel
+PASS: Mobile gallery swipe advances the lightbox
+PASS: Gallery close button exits the lightbox
+
+## Accessibility audit
+PASS: Semantic landmarks, heading, image alternatives, labels and button names are present
+PASS: Axe: desktop homepage has no detected WCAG A/AA violations
+PASS: Axe: cart drawer has no detected WCAG A/AA violations
+PASS: Native modal dialog places keyboard focus inside the cart
+PASS: Axe: checkout dialog has no detected WCAG A/AA violations
+PASS: Axe: gallery lightbox has no detected WCAG A/AA violations
+PASS: Axe: mobile homepage has no detected WCAG A/AA violations
+PASS: Axe: open mobile navigation has no detected WCAG A/AA violations
+
+## Loading performance and layout stability
+PASS: Initial local load transfers less than 1 MB before lazy content
+PASS: Initial layout shift remains below the 0.1 good-experience threshold
+PASS: Both final font families load successfully
+PASS: All eight modular runtime scripts load with no unused dependency framework
+PASS: All rendered images load after a complete page journey
+PASS: Full-page loading and scrolling retain CLS below 0.1
+PASS: Performance journey has no JavaScript errors or failed requests
+
+## Static code and asset audit
+PASS: Static HTML has unique IDs and no broken internal anchors
+PASS: Every statically referenced local script, style, font and image exists
+PASS: Runtime food imagery uses local WebP files with a single social JPEG
+PASS: No individual runtime image exceeds 200 KB
+PASS: Final CSS uses only Fraunces and Manrope as downloaded font families
+PASS: Font declarations use swap and no runtime CDN dependencies
+PASS: Runtime remains eight deferred vanilla-JavaScript modules
+PASS: Project contains no production package dependency or build requirement
+
+FINAL QA RESULT: 186 passed, 0 failed, 186 total
+Machine-readable results: /home/user/msq-cafe-demo/tests/final-qa-results.json
